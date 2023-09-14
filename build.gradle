@@ -1,0 +1,168 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            name "yunghegelRepository"
+            url "https://repo.yunghegel.org/plugins"
+        }
+
+
+    }
+    dependencies {
+        classpath "org.yunghegel.gdx:test-plugin:1.2"
+
+    }
+}
+
+plugins {
+    id 'java'
+    id 'maven-publish'
+    id 'java-library'
+
+}
+apply plugin: 'plugins.greeting'
+
+group 'org.yunghegel.gdx'
+version '1.0-SNAPSHOT'
+
+//yunghegelLibrary {
+//    packages {
+//        addBmesh()
+//        addGizmos()
+//        addPicking()
+//        addMeshPlus()
+//        addScenegraph()
+//        addUtils()
+//    }
+//}
+
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven-publish'
+    apply plugin: 'java-library'
+
+
+    sourceCompatibility = 17 //DESIRED JAVA VERSION;
+    targetCompatibility = 17 //DESIRED JAVA VERSION;
+
+    apply plugin: 'plugins.greeting'
+
+
+
+
+
+    repositories {
+        mavenCentral()
+        google()
+        gradlePluginPortal()
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url 'https://s01.oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url 'https://jitpack.io' }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        maven { url "https://oss.sonatype.org/content/repositories/releases/" }
+        maven{ url "https://raw.githubusercontent.com/kotlin-graphics/mary/master"}
+        maven {
+            name "yunghegelRepository"
+            url "https://repo.yunghegel.org/snapshots"
+        }
+        maven {
+            name "yunghegelRepository"
+            url "https://repo.yunghegel.org/plugins"
+        }
+
+
+    }
+
+
+    dependencies {
+
+        //LOMBOK
+        compileOnly 'org.projectlombok:lombok:1.18.28'
+        annotationProcessor 'org.projectlombok:lombok:1.18.28'
+        testCompileOnly 'org.projectlombok:lombok:1.18.28'
+        testAnnotationProcessor 'org.projectlombok:lombok:1.18.28'
+
+        //GDX BACKEND/NATIVES
+        implementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
+        implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+
+
+        //GDX CORE LIBRARY
+        api "com.badlogicgames.gdx:gdx:$gdxVersion"
+        api "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+        api "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-desktop"
+        api "com.badlogicgames.gdx:gdx-bullet:$gdxVersion"
+
+
+        //GDX EXTENSIONS
+        api "com.kotcrab.vis:vis-ui:$visUiVersion"
+        api "com.github.mgsx-dev.gdx-gltf:gltf:$gdxGltfVersion"
+        implementation 'com.github.raeleus.stripe:stripe:1.4.5'
+        implementation 'com.esotericsoftware.minlog:minlog:1.2'
+        implementation "com.github.crykn.guacamole:core:$guacamoleVersion"
+        implementation "com.github.crykn.guacamole:gdx:$guacamoleVersion"
+        implementation "com.github.crykn.guacamole:gdx-desktop:$guacamoleVersion"
+        implementation "com.github.tommyettinger:libgdx-utils:$utilsVersion"
+        implementation 'com.github.raeleus.stripe:freetype:1.4.5'
+        implementation "com.github.tommyettinger:libgdx-utils:$utilsVersion"
+        //UTILITIY LIBRARIES
+        implementation 'com.google.code.gson:gson:2.10.1'
+        implementation "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+
+
+
+    }
+
+
+}
+
+def javaProjects() {
+    subprojects.findAll { project ->
+        project.plugins.hasPlugin('java-library')
+    }
+}
+
+configure(javaProjects()) {
+    sourceSets {
+        main {
+            java {
+                srcDirs = ['src']
+            }
+            resources {
+                srcDirs = ['res']
+            }
+        }
+        test {
+            java {
+                srcDirs = ['test']
+            }
+            resources {
+                srcDirs = ['res']
+            }
+        }
+    }
+
+    java {
+        withSourcesJar()
+        //withJavadocJar()
+    }
+
+    artifacts {
+        archives jar
+        archives sourcesJar
+        //archives javadocJar
+    }
+
+    jar {
+        manifest {
+            attributes 'Built-By': System.getProperty('user.name')
+            attributes 'Built-JDK': System.getProperty('java.version')
+            attributes 'Built-OS': System.getProperty('os.name')
+        }
+
+    }
+
+
+
+}

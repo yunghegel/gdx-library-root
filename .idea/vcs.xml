@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gdx-bmesh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gdx-gizmos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gdx-mesh-plus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gdx-picking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gdx-scenegraph" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gdx-yung-utils" vcs="Git" />
+  </component>
+</project>

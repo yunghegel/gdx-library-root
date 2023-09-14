@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demos/gdx-library-root.demos.main.iml" filepath="$PROJECT_DIR$/.idea/modules/demos/gdx-library-root.demos.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-bmesh/gdx-library-root.gdx-bmesh.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-bmesh/gdx-library-root.gdx-bmesh.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-gizmos/gdx-library-root.gdx-gizmos.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-gizmos/gdx-library-root.gdx-gizmos.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/gdx-library-root.gdx-mesh-plus.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/gdx-library-root.gdx-mesh-plus.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-picking/gdx-library-root.gdx-picking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-picking/gdx-library-root.gdx-picking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-scenegraph/gdx-library-root.gdx-scenegraph.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-scenegraph/gdx-library-root.gdx-scenegraph.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-yung-utils/gdx-library-root.gdx-yung-utils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-yung-utils/gdx-library-root.gdx-yung-utils.main.iml" />
+    </modules>
+  </component>
+</project>
