@@ -5,12 +5,11 @@ buildscript {
             name "yunghegelRepository"
             url "https://repo.yunghegel.org/plugins"
         }
-
+        gradlePluginPortal()
 
     }
     dependencies {
-        classpath "org.yunghegel.gdx:test-plugin:1.2"
-
+        classpath "io.freefair.gradle:lombok-plugin:6.5.0.3"
     }
 }
 
@@ -20,7 +19,6 @@ plugins {
     id 'java-library'
 
 }
-apply plugin: 'plugins.greeting'
 
 group 'org.yunghegel.gdx'
 version '1.0-SNAPSHOT'
@@ -43,10 +41,9 @@ subprojects {
     apply plugin: 'java-library'
 
 
-    sourceCompatibility = 17 //DESIRED JAVA VERSION;
-    targetCompatibility = 17 //DESIRED JAVA VERSION;
+    sourceCompatibility = 11 //DESIRED JAVA VERSION;
+    targetCompatibility = 11 //DESIRED JAVA VERSION;
 
-    apply plugin: 'plugins.greeting'
 
 
 
@@ -109,6 +106,7 @@ subprojects {
         //UTILITIY LIBRARIES
         implementation 'com.google.code.gson:gson:2.10.1'
         implementation "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+        implementation "org.apache.commons:commons-lang3:3.12.0"
 
 
 
@@ -124,6 +122,8 @@ def javaProjects() {
 }
 
 configure(javaProjects()) {
+    apply plugin: 'io.freefair.lombok'
+
     sourceSets {
         main {
             java {
