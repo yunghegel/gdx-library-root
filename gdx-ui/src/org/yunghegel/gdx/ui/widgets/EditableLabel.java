@@ -7,14 +7,17 @@ import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
+import java.util.function.Consumer;
+
 public class EditableLabel extends ToggleWidget {
 
     private String text;
     protected STextField textField;
-    private SLabel label;
+    public SLabel label;
     private ClickListener listener;
     private ChangeListener changeListener;
     private ButtonClicked buttonClicked;
+    private Consumer<String> callback;
 
     public EditableLabel(String text) {
         this.text = text;
@@ -29,6 +32,23 @@ public class EditableLabel extends ToggleWidget {
         initListeners();
     }
 
+    public EditableLabel(String text, String style){
+        this.text = text;
+        label = new SLabel(text, style);
+        firstTable.add(label).grow();
+
+        textField = new STextField(text);
+        secondTable.add(textField);
+
+        label.setTouchable(Touchable.enabled);
+
+        initListeners();
+    }
+
+    public void setCallback(Consumer<String> callback){
+        this.callback = callback;
+    }
+
     private void initListeners(){
         label.setTouchable(Touchable.enabled);
         label.addListener(listener = new ClickListener(){
@@ -36,7 +56,9 @@ public class EditableLabel extends ToggleWidget {
             public void clicked(InputEvent event, float x, float y) {
                 if (getTapCount()==2){
                     toggle();
-                    getStage().setKeyboardFocus(textField);
+                    if(getStage()!=null){
+                        getStage().setKeyboardFocus(textField);
+                    }
                     textField.selectAll();
                 }
 
@@ -47,9 +69,7 @@ public class EditableLabel extends ToggleWidget {
             @Override
             public void clicked(InputEvent event, float x, float y) {
 
-                if(buttonClicked != null){
-                    buttonClicked.clicked();
-                }
+
             }
 
 
@@ -61,6 +81,7 @@ public class EditableLabel extends ToggleWidget {
                 label.setText(textField.getText());
                 if(label.getText().isEmpty()) label.setText(". . .");
                 EditableLabel.this.text = textField.getText();
+                if(callback != null) callback.accept(textField.getText());
             }
         });
 

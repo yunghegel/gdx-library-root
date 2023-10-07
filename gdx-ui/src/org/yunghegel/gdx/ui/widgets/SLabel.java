@@ -8,4 +8,7 @@ public class SLabel extends Label {
     public SLabel(String text) {
         super(text, UI.getSkin());
     }
+    public SLabel(String text, String styleName) {
+        super(text, UI.getSkin(), styleName);
+    }
 }

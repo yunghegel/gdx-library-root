@@ -185,7 +185,7 @@ configure(javaProjects()) {
 
 }
 
-project('salient'){
+project('salient_editor'){
 
     dependencies {
         implementation project(":gdx-ui")

@@ -16,12 +16,12 @@
 [submodule "gdx-picking"]
 	path = gdx-picking
 	url = https://github.com/yunghegel/gdx-picking.git
-[submodule "gdx-ui"]
-    path = gdx-ui
-    url = https://github.com/yunghegel/gdx-ui.git
-[submodule "salient_editor"]
-    path = salient
-    url = https://github.com/yunghegel/salient_editor.git
 [submodule "gdx-package-demos"]
 	path = demos
 	url = https://github.com/yunghegel/gdx-package-demos.git
+[submodule "salient_editor"]
+	path = salient_editor
+	url = https://github.com/yunghegel/salient_editor.git
+[submodule "gdx-ui"]
+	path = gdx-ui
+	url = https://github.com/yunghegel/gdx-ui.git

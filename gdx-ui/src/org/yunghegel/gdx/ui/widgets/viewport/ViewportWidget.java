@@ -26,7 +26,7 @@ public class ViewportWidget extends Widget {
 
     public ScreenViewport viewport;
     public Stage stage;
-    public Stage uiStage;
+    public ViewportStage uiStage;
 
     private Vector2 temp = new Vector2();
     public Vector2 origin = new Vector2();
@@ -45,10 +45,12 @@ public class ViewportWidget extends Widget {
     Array<ViewportEventListener> viewportEventListeners = new Array<>();
 
 
+
+
     public ViewportWidget(ScreenViewport viewport, Stage stage) {
          this.viewport = viewport;
         this.stage = stage;
-        uiStage = new Stage();
+        uiStage = new ViewportStage(this);
         viewportInputs = inputs;
 
         createListeners();
@@ -109,10 +111,10 @@ public class ViewportWidget extends Widget {
         if(widgetActive!=active){
             if(widgetActive){
                 handleEvent(new ViewportEnteredEvent(this));
-                System.out.println("entered");
+
             } else {
                 handleEvent(new ViewportExitedEvent(this));
-                System.out.println("exited");
+
             }
             active=widgetActive;
         }
@@ -128,6 +130,7 @@ public class ViewportWidget extends Widget {
         viewport.update(MathUtils.round(getWidth()), MathUtils.round(getHeight()));
         viewportOriginalX = viewport.getScreenX();
         viewportOriginalY = viewport.getScreenY();
+        handleEvent(new ViewportLayoutEvent(this,viewportOriginalX, viewportOriginalY,temp.x,temp.y));
     }
 
     @Override
@@ -143,11 +146,18 @@ public class ViewportWidget extends Widget {
             handleEvent(new GameViewportAppliedEvent(this));
         }
 
+        uiStage.act();
+        uiStage.getViewport().apply();
+        uiStage.draw();
+
         if(renderer!=null){
-            renderer.render();
+            renderer.render(Gdx.graphics.getDeltaTime());
         }
 
         stage.getViewport().apply();
+
+
+
         handleEvent(new StageViewportAppliedEvent(this));
         batch.begin();
     }
@@ -192,7 +202,7 @@ public class ViewportWidget extends Widget {
     }
 
     public interface Renderer {
-        void render();
+        void render(float delta);
     }
 
 }

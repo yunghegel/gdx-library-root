@@ -22,6 +22,7 @@ import org.lwjgl.system.windows.User32;
 import org.lwjgl.system.windows.WINDOWPLACEMENT;
 import org.lwjgl.system.windows.WindowProc;
 
+import javax.swing.*;
 import java.nio.DoubleBuffer;
 
 public class UI {
@@ -39,7 +40,7 @@ public class UI {
     private static boolean loaded = false;
 
     public static void load() {
-        if(loaded) throw new RuntimeException("UI already loaded!");
+        if(loaded) return;
         skinFile = Gdx.files.classpath(skinClasspath);
         skin = new FreeTypeSkin(skinFile);
         extras=new TextureAtlas(Gdx.files.classpath(atlasClasspath));
@@ -65,7 +66,6 @@ public class UI {
         long hwnd = GLFWNativeWin32.glfwGetWin32Window(lwjglWindow);
         long pWindowProc = User32.GetWindowLongPtr(hwnd, User32.GWL_WNDPROC);
         System.out.println("oldptr: " + pWindowProc);
-
         WindowProc proc = new WindowProc() {
             private final Vector2 tmp = new Vector2();
             private final DoubleBuffer cursorX = BufferUtils.createDoubleBuffer(1);

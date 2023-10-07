@@ -8,6 +8,6 @@ include 'gdx-picking'
 include 'gdx-ui'
 
 include 'gdx-package-demos'
-include 'salient'
+include 'salient_editor'
 
 

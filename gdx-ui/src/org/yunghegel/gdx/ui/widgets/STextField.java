@@ -10,6 +10,10 @@ public class STextField extends TextField {
 
     }
 
+    public STextField(String text, String style) {
+        super(text,UI.getSkin(),style);
+    }
+
     @Override
     public float getPrefWidth() {
         return 100f;
