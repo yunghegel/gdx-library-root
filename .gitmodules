@@ -19,7 +19,7 @@
 [submodule "gdx-ui"]
     path = gdx-ui
     url = https://github.com/yunghegel/gdx-ui.git
-[submodule "salient"]
+[submodule "salient_editor"]
     path = salient
     url = https://github.com/yunghegel/salient_editor.git
 [submodule "gdx-package-demos"]
