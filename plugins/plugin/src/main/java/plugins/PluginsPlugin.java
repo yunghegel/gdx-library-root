@@ -59,7 +59,7 @@ public class PluginsPlugin implements Plugin<Project> {
                             deps.add(dep);
                             dependencies.getDependencies().add(dep);
                             project.getGradle().removeListener(this);
-                            project.getLogger().log(LogLevel.ERROR,"added dependency "+pkg.toString());
+                            project.getLogger().log(LogLevel.ERROR,"added dependency "+ pkg);
                             System.out.println("added dependencies" + project.getDependencies());
                         }
 

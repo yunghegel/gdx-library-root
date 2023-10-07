@@ -5,11 +5,15 @@ buildscript {
             name "yunghegelRepository"
             url "https://repo.yunghegel.org/plugins"
         }
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
         gradlePluginPortal()
 
     }
     dependencies {
         classpath "io.freefair.gradle:lombok-plugin:6.5.0.3"
+        classpath "com.diffplug.spotless:spotless-plugin-gradle:6.21.0"
     }
 }
 
@@ -39,10 +43,27 @@ subprojects {
     apply plugin: 'java'
     apply plugin: 'maven-publish'
     apply plugin: 'java-library'
+//    apply plugin: "com.diffplug.spotless"
 
 
     sourceCompatibility = 11 //DESIRED JAVA VERSION;
     targetCompatibility = 11 //DESIRED JAVA VERSION;
+
+//    spotless {
+//
+//        java {
+//            // don't need to set target, it is inferred from java
+//
+//            // apply a specific flavor of google-java-format
+//            googleJavaFormat('1.8').aosp().reflowLongStrings()
+//            // fix formatting of type annotations
+//            formatAnnotations()
+//            // make sure every file has the following copyright header.
+//            // optionally, Spotless can set copyright years by digging
+//            // through git history (see "license" section below)
+//            licenseHeader '/* (C)$YEAR */'
+//        }
+//    }
 
 
 
@@ -137,9 +158,6 @@ configure(javaProjects()) {
             java {
                 srcDirs = ['test']
             }
-            resources {
-                srcDirs = ['res']
-            }
         }
     }
 
@@ -165,4 +183,17 @@ configure(javaProjects()) {
 
 
 
+}
+
+project('salient'){
+
+    dependencies {
+        implementation project(":gdx-ui")
+        implementation project(":gdx-yung-utils")
+        implementation project(":gdx-scenegraph")
+        implementation project(":gdx-mesh-plus")
+        implementation project(":gdx-picking")
+        implementation project(":gdx-gizmos")
+        implementation project(":gdx-bmesh")
+    }
 }
