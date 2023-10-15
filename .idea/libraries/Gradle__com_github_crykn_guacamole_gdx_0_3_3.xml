@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.crykn.guacamole:gdx:0.3.3" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.github.crykn.guacamole" artifactId="gdx" version="0.3.3" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.crykn.guacamole/gdx/0.3.3/8f7d0ca7f84984c533286ce951fd2e46cd621684/gdx-0.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.crykn.guacamole/gdx/0.3.3/ad22fe5c66c1915efac1ada743149ebcad1e2645/gdx-0.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

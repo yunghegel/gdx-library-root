@@ -197,3 +197,7 @@ project('salient_editor'){
         implementation project(":gdx-bmesh")
     }
 }
+
+dependencies {
+
+}

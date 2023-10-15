@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.spair:imgui-java-natives-macos:1.86.10" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.github.spair" artifactId="imgui-java-natives-macos" version="1.86.10" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.spair/imgui-java-natives-macos/1.86.10/c9f46fe7b88f7b7275b5ef8e32c85892f77d180d/imgui-java-natives-macos-1.86.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.spair/imgui-java-natives-macos/1.86.10/46d6d9c870e8ff0920df6f942d1a1baf141378bf/imgui-java-natives-macos-1.86.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

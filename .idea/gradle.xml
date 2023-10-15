@@ -10,23 +10,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/demos" />
             <option value="$PROJECT_DIR$/gdx-bmesh" />
             <option value="$PROJECT_DIR$/gdx-gizmos" />
             <option value="$PROJECT_DIR$/gdx-mesh-plus" />
+            <option value="$PROJECT_DIR$/gdx-package-demos" />
             <option value="$PROJECT_DIR$/gdx-picking" />
             <option value="$PROJECT_DIR$/gdx-scenegraph" />
+            <option value="$PROJECT_DIR$/gdx-shaders" />
+            <option value="$PROJECT_DIR$/gdx-ui" />
             <option value="$PROJECT_DIR$/gdx-yung-utils" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/plugins" />
-        <option name="gradleHome" value="$USER_HOME$/.gradle/gradle-8.3" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/plugins" />
-            <option value="$PROJECT_DIR$/plugins/plugin" />
+            <option value="$PROJECT_DIR$/salient_editor" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.libktx:ktx-ashley:1.12.0-rc1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.github.libktx" artifactId="ktx-ashley" version="1.12.0-rc1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.libktx/ktx-ashley/1.12.0-rc1/cb1340d537bffff36278b2680232ab055abca0a4/ktx-ashley-1.12.0-rc1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.libktx/ktx-ashley/1.12.0-rc1/261d0c597482b2cccc153c710fe35203eed5561e/ktx-ashley-1.12.0-rc1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

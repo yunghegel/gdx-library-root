@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.crashinvaders.vfx:gdx-vfx-effects:0.5.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.crashinvaders.vfx" artifactId="gdx-vfx-effects" version="0.5.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.crashinvaders.vfx/gdx-vfx-effects/0.5.1/93f2474c68f57415e1663f1b58decdb92e1ab0e8/gdx-vfx-effects-0.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.crashinvaders.vfx/gdx-vfx-effects/0.5.1/b06a27a2767d648640adca4b7805c1774557fc8f/gdx-vfx-effects-0.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,62 +1,445 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a7e73a-e1aa-4e99-853d-d8ae41f4e133" name="Changes" comment="add demo files">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/sha256-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/checksums/sha256-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/sha512-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/checksums/sha512-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+    <list default="true" id="c8a7e73a-e1aa-4e99-853d-d8ae41f4e133" name="Changes" comment="Salient">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_ashley_ashley_1_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_backend_lwjgl3_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_bullet_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_freetype_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_freetype_platform_natives_desktop_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_jnigen_loader_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_platform_natives_desktop_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_jlayer_jlayer_1_0_1_gdx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashinvaders_vfx_gdx_vfx_core_0_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashinvaders_vfx_gdx_vfx_effects_0_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_esotericsoftware_kryo_kryo_2_24_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_esotericsoftware_minlog_minlog_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_crykn_guacamole_core_0_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_crykn_guacamole_gdx_0_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_crykn_guacamole_gdx_desktop_0_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_czyzby_gdx_kiwi_1_9_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_mgsx_dev_gdx_gltf_gltf_7d70839.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_raeleus_stripe_freetype_1_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_raeleus_stripe_stripe_1_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_tommyettinger_formic_0_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_tommyettinger_libgdx_utils_0_13_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_tommyettinger_regexodus_0_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_elemental2_elemental2_core_1_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_elemental2_elemental2_dom_1_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_elemental2_elemental2_promise_1_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_31_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_jsinterop_base_1_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_jsinterop_jsinterop_annotations_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_kotcrab_vis_vis_ui_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_strongjoshua_libgdx_inGameConsole_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__games_spooky_gdx_gdx_nativefilechooser_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__games_spooky_gdx_gdx_nativefilechooser_desktop_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_fourlastor_gdx_scope_0_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_actors_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_app_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_ashley_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_assets_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_assets_async_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_async_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_collections_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_graphics_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_inject_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_json_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_math_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_reflect_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_scene2d_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_script_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_style_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_libktx_ktx_vis_1_12_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_spair_imgui_java_binding_1_86_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_spair_imgui_java_lwjgl3_1_86_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_spair_imgui_java_natives_linux_1_86_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_spair_imgui_java_natives_macos_1_86_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_spair_imgui_java_natives_windows_1_86_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava3_rxjava_3_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava3_rxkotlin_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_29_2_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jcraft_jorbis_0_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_23_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_intellij_deps_trove4j_1_0_20200330.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_build_tools_api_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_compiler_embeddable_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_compiler_runner_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_daemon_client_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_daemon_embeddable_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_gradle_plugin_annotations_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_gradle_plugin_api_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_gradle_plugin_api_gradle81_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_gradle_plugin_gradle81_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_gradle_plugin_idea_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_gradle_plugin_idea_proto_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_gradle_plugin_model_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_klib_commonizer_api_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_native_utils_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_project_model_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_6_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_8_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_script_runtime_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_scripting_common_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_scripting_compiler_embeddable_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_scripting_compiler_impl_embeddable_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_scripting_jsr223_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_scripting_jvm_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_scripting_jvm_host_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_9_20_RC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_9_20_RC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_9_20_RC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_tooling_core_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_util_io_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_util_klib_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_serialization_core_jvm_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_serialization_json_jvm_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_natives_linux_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_natives_linux_arm32_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_natives_linux_arm64_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_natives_macos_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_natives_macos_arm64_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_natives_windows_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_natives_windows_x86_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jemalloc_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jemalloc_natives_linux_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jemalloc_natives_linux_arm32_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jemalloc_natives_linux_arm64_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jemalloc_natives_macos_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jemalloc_natives_macos_arm64_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jemalloc_natives_windows_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jemalloc_natives_windows_x86_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_natives_linux_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_natives_linux_arm32_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_natives_linux_arm64_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_natives_macos_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_natives_macos_arm64_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_natives_windows_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_natives_windows_x86_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_openal_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_openal_natives_linux_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_openal_natives_linux_arm32_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_openal_natives_linux_arm64_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_openal_natives_macos_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_openal_natives_macos_arm64_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_openal_natives_windows_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_openal_natives_windows_x86_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_opengl_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_opengl_natives_linux_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_opengl_natives_linux_arm32_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_opengl_natives_linux_arm64_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_opengl_natives_macos_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_opengl_natives_macos_arm64_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_opengl_natives_windows_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_opengl_natives_windows_x86_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_stb_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_stb_natives_linux_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_stb_natives_linux_arm32_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_stb_natives_linux_arm64_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_stb_natives_macos_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_stb_natives_macos_arm64_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_stb_natives_windows_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_stb_natives_windows_x86_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yunghegel_gdx_gdx_gizmos_0_3_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yunghegel_gdx_gdx_picking_0_3_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yunghegel_gdx_gdx_scenegraph_0_4_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yunghegel_gdx_gdx_yung_utils_0_4_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-bmesh/gdx-library-root.gdx-bmesh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-bmesh/gdx-library-root.gdx-bmesh.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-bmesh/gdx-library-root.gdx-bmesh.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-gizmos/gdx-library-root.gdx-gizmos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-gizmos/gdx-library-root.gdx-gizmos.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-library-root.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-library-root.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-library-root.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/gdx-library-root.gdx-mesh-plus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/gdx-library-root.gdx-mesh-plus.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-package-demos/gdx-library-root.gdx-package-demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-package-demos/gdx-library-root.gdx-package-demos.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-package-demos/gdx-library-root.gdx-package-demos.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-picking/gdx-library-root.gdx-picking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-picking/gdx-library-root.gdx-picking.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-scenegraph/gdx-library-root.gdx-scenegraph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-scenegraph/gdx-library-root.gdx-scenegraph.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-shaders/gdx-library-root.gdx-shaders.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-shaders/gdx-library-root.gdx-shaders.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-shaders/gdx-library-root.gdx-shaders.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-ui/gdx-library-root.gdx-ui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-ui/gdx-library-root.gdx-ui.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-ui/gdx-library-root.gdx-ui.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-yung-utils/gdx-library-root.gdx-yung-utils.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gdx-yung-utils/gdx-library-root.gdx-yung-utils.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/salient_editor/gdx-library-root.salient_editor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/salient_editor/gdx-library-root.salient_editor.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/salient_editor/gdx-library-root.salient_editor.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scopes/ui.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-picking/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/scene3d/GO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/scene3d/Spatial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-shaders/res/depth.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-shaders/res/depth.vert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-shaders/src/org/yunghegel/gdx/shaders/Depth.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-shaders/src/org/yunghegel/gdx/shaders/GBuffer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-shaders/src/org/yunghegel/gdx/shaders/Providers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-shaders/test/EditorCamera.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-shaders/test/ShaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-shaders/test/TestLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-ui/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/widgets/ColorBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/widgets/ColorPicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/widgets/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/widgets/STree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/widgets/SceneTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/assets/provided/gltf/models/logo.gltf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/assets/Asset.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/assets/AssetManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/assets/AssetMeta.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/assets/AssetRegistry.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/assets/AssetService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/assets/AssetType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/assets/types/ModelAsset.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/assets/types/OtherAsset.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/assets/types/TextureAsset.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/events/Events.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/events/assets/AssetFinalizedEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/events/assets/AssetLoadingFinishedEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/events/assets/AssetLoadingInitalizedEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/events/assets/AssetQueuedEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/events/proj/ProjectInitializedEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/events/scene/GameObjectAddedEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/events/scene/GameObjectDeselectedEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/events/scene/GameObjectRemovedEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/events/scene/GameObjectSelectedEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/events/scene/GameObjectTransformedEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/events/scene/SceneEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/graphics/BufferedRender.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/graphics/Cacheable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/graphics/Cullable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/graphics/RenderSequence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/scene/Scene.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/scene/SceneRenderer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/scene/graph/ComponentProperties.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/scene/graph/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/scene/graph/GameObjectProducer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/scene/graph/SceneGraph.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/scene/graph/components/AbstractComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/scene/graph/components/CullableComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/scene/graph/components/GameObjectAttributes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/scene/graph/components/SpotLightComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/scene/systems/SceneIterator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/tools/BasePicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/tools/GameObjectPicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/ui/scene/SceneHierarchy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/ui/scene/SceneInspector.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/ui/scene/SceneInspectorHeading.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/ui/scene/SceneTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/ui/viewport/ViewportButtons.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/ui/viewport/ViewportMenubar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/util/Attributes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/util/FileFormatUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/util/Flags.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/util/MaterialUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salient_editor/src/util/TypeAliases.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/dependencies-accessors/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-shaders/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-shaders/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/dependencies-accessors/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-shaders/res/gbuffer.frag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-shaders/res/gbuffer.vert" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/sha256-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/checksums/sha512-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/demos/gdx-library-root.demos.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/demos/gdx-library-root.demos.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/gdx-gizmos/gdx-library-root.gdx-gizmos.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/gdx-gizmos/gdx-library-root.gdx-gizmos.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/gdx-library-root.gdx-mesh-plus.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/gdx-library-root.gdx-mesh-plus.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/gdx-picking/gdx-library-root.gdx-picking.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/gdx-picking/gdx-library-root.gdx-picking.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/gdx-scenegraph/gdx-library-root.gdx-scenegraph.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/gdx-scenegraph/gdx-library-root.gdx-scenegraph.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/gdx-yung-utils/gdx-library-root.gdx-yung-utils.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/gdx-yung-utils/gdx-library-root.gdx-yung-utils.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gdx-bmesh" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-bmesh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-bmesh/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-bmesh/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-bmesh/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-bmesh/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-bmesh/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-bmesh/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-bmesh/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-bmesh/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-bmesh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-bmesh/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-bmesh/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gdx-bmesh/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-bmesh/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-bmesh/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-bmesh/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gdx-gizmos" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-gizmos" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gdx-gizmos/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-gizmos/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-gizmos/build/publications/mavenJava/module.json" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-gizmos/build/publications/mavenJava/module.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-gizmos/build/publications/mavenJava/pom-default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-gizmos/build/publications/mavenJava/pom-default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-gizmos/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-gizmos/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-gizmos/build/tmp/publishMavenJavaPublicationToYunghegelSnapshotsRepository/module-maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-gizmos/build/tmp/publishMavenJavaPublicationToYunghegelSnapshotsRepository/module-maven-metadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-gizmos/build/tmp/publishMavenJavaPublicationToYunghegelSnapshotsRepository/snapshot-maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-gizmos/build/tmp/publishMavenJavaPublicationToYunghegelSnapshotsRepository/snapshot-maven-metadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-gizmos/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-gizmos/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gdx-mesh-plus" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-mesh-plus" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gdx-mesh-plus/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-mesh-plus/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-mesh-plus/build/publications/mavenJava/module.json" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-mesh-plus/build/publications/mavenJava/module.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-mesh-plus/build/publications/mavenJava/pom-default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-mesh-plus/build/publications/mavenJava/pom-default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-mesh-plus/build/tmp/publishMavenJavaPublicationToYunghegelSnapshotsRepository/module-maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-mesh-plus/build/tmp/publishMavenJavaPublicationToYunghegelSnapshotsRepository/module-maven-metadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-mesh-plus/build/tmp/publishMavenJavaPublicationToYunghegelSnapshotsRepository/snapshot-maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-mesh-plus/build/tmp/publishMavenJavaPublicationToYunghegelSnapshotsRepository/snapshot-maven-metadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-mesh-plus/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-mesh-plus/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-package-demos" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-package-demos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-package-demos/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-package-demos/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-package-demos/src/BasicScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-package-demos/src/BasicScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-picking" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-picking" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-picking/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-picking/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gdx-scenegraph" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-scenegraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/build/publications/mavenJava/module.json" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-scenegraph/build/publications/mavenJava/module.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/build/publications/mavenJava/pom-default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-scenegraph/build/publications/mavenJava/pom-default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/build/tmp/publishMavenJavaPublicationToYunghegelSnapshotsRepository/module-maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-scenegraph/build/tmp/publishMavenJavaPublicationToYunghegelSnapshotsRepository/module-maven-metadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/build/tmp/publishMavenJavaPublicationToYunghegelSnapshotsRepository/snapshot-maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-scenegraph/build/tmp/publishMavenJavaPublicationToYunghegelSnapshotsRepository/snapshot-maven-metadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-scenegraph/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-scenegraph/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/component/BaseComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/component/GlobalTransformComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/component/LocalTransformComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/scene3d/BaseNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/scene3d/BaseNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/scene3d/BaseScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/scene3d/BaseScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/scene3d/GameObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/scene3d/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/scene3d/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/scene3d/SceneContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/scene3d/SceneGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/scene3d/SimpleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-scenegraph/src/org/yunghegel/gdx/scenegraph/scene3d/SimpleNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-ui/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-ui/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-ui/res/skin/uiskin.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-ui/res/skin/uiskin.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-ui/res/skin/uiskin.json" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-ui/res/skin/uiskin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-ui/res/skin/uiskin.png" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-ui/res/skin/uiskin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/widgets/STextButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/widgets/STextButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/widgets/viewport/ViewportStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/widgets/viewport/ViewportStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/widgets/viewport/ViewportWidget.java" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/widgets/viewport/ViewportWidget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gdx-yung-utils" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-yung-utils" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/VeraMono.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/bfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/default-font-32.fnt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/font-title-export.fnt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/roboto-medium-big-no-stroke.fnt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/roboto-medium-big.fnt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/roboto-medium-no-stroke.fnt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/roboto-medium-small-no-stroke.fnt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/roboto-medium-small.fnt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/roboto-medium.fnt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/salient_ui.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/salient_ui.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/salient_ui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/uiskin.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/uiskin.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/bin/test/skin/uiskin.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gdx-yung-utils/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-yung-utils/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-yung-utils/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/src/org/yunghegel/gdx/utils/console/ConsoleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-yung-utils/src/org/yunghegel/gdx/utils/console/ConsoleUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/src/org/yunghegel/gdx/utils/graphics/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/gdx-yung-utils/src/org/yunghegel/gdx/utils/graphics/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gdx-yung-utils/src/org/yunghegel/gdx/utils/ui/widgets/SceneTree.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/plugin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/plugin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/app/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/app/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/app/Editor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/app/Editor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/app/Salient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/app/Salient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/events/Event.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/events/Event.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/events/EventLogger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/events/EventLogger.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/events/io/FileAddedEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/events/io/FileAddedEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/events/io/FilesDroppedEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/events/io/FilesDroppedEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/events/lifecycle/ShutdownEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/events/lifecycle/ShutdownEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/events/lifecycle/StartupEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/events/lifecycle/StartupEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/events/proj/ProjectChangedEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/events/proj/ProjectChangedEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/events/proj/ProjectCreatedEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/events/proj/ProjectCreatedEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/events/proj/ProjectLoadedEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/events/proj/ProjectLoadedEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/events/scene/SceneClosedEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/events/scene/SceneClosedEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/events/scene/SceneCreatedEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/events/scene/SceneCreatedEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/events/scene/SceneLoadedEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/events/scene/SceneLoadedEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/events/scene/SceneSelectionEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/events/scene/SceneSelectionEvent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/graphics/Renderer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/graphics/Renderer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/input/EditorCamera.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/input/EditorCamera.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/input/InputManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/input/InputManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/io/FileService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/io/FileService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/io/Serializer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/io/Serializer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/project/Project.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/project/Project.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/project/ProjectManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/project/ProjectManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/scene/Scene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/scene/SceneGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/scene/SceneManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/scene/SceneManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/scene/context/env/EditorEnvironment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/scene/SceneContext.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/scene/context/env/EnvironmentData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/scene/context/env/EnvironmentData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/sys/reflection/ClassScanner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/sys/reflection/ClassScanner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/ui/Gui.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/ui/Gui.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/ui/SMenuBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/ui/SMenuBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/ui/project/DialogProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/ui/project/DialogProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/ui/project/FileChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/ui/project/FileChooser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/ui/project/ProjectInspector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/ui/project/ProjectInspector.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/ui/viewport/ScenePreview.java" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/ui/viewport/ScenePreview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/ui/viewport/SceneTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/ui/viewport/SceneTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/ui/viewport/SceneTabPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/ui/viewport/SceneTabPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/util/DebugDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/util/DebugDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salient_editor/src/util/Formatting.kt" beforeDir="false" afterPath="$PROJECT_DIR$/salient_editor/src/util/Formatting.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -100,6 +483,18 @@
         <task path="$PROJECT_DIR$/gdx-yung-utils">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/gdx-ui">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/salient">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/plugins">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/salient_editor">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -112,21 +507,55 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Annotation" />
+        <option value="Kotlin Object" />
+        <option value="Enum" />
+        <option value="TypeScript File" />
+        <option value="Kotlin Enum" />
+        <option value="SalientEvent" />
+        <option value="Kotlin Interface" />
+        <option value="SalientComponent" />
+        <option value="module-info" />
+        <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FoldableProjectSettings">
+    <option name="HIDE_ALL_GROUPS" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/.ideaLibSources/gradle-api-8.3-sources.jar!/org/gradle/api/NamedDomainObjectContainer.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.ideaLibSources/gradle-api-8.3-sources.jar!/org/gradle/api/internal/AbstractValidatingNamedDomainObjectContainer.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.ideaLibSources/gradle-api-8.3-sources.jar!/org/gradle/api/internal/tasks/DefaultSourceSetContainer.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.ideaLibSources/gradle-api-8.3-sources.jar!/org/gradle/internal/metaobject/ConfigureDelegate.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.ideaLibSources/groovy-3.0.17-sources.jar!/groovy/lang/Closure.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.ideaLibSources/groovy-3.0.17-sources.jar!/org/codehaus/groovy/runtime/ComposedClosure.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/8.3/generated-gradle-jars/gradle-api-8.3.jar!/api-mapping.txt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.12.0/47779a065d1fa9a102cf18af17fd737bed88035a/gdx-1.12.0-sources.jar!/com/badlogic/gdx/graphics/g3d/Attributes.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.gradle/gradle-8.3/lib/gradle-core-api-8.3.jar!/org/gradle/api/file/ConfigurableFileCollection.class" root0="SKIP_INSPECTION" />
   </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="salient" pattern="((file[gdx-library-root.salient.main]:*||file[gdx-library-root.salient.main]:*/||file[gdx-library-root.salient_editor*]:*//*)&amp;&amp;!ext[/home/jamie/.gradle/caches/8.3/generated-gradle-jars/gradle-api-8.3.jar]:*&amp;&amp;!ext[/home/jamie/.gradle/caches/8.3/generated-gradle-jars/gradle-test-kit-8.3.jar]:*||ext:*/)&amp;&amp;!ext:pluginUnderTestMetadata/*&amp;&amp;!ext[Gradle: org.jetbrains.kotlin:kotlin-gradle-plugin:gradle81:1.9.0]:*&amp;&amp;!ext[Gradle: org.jetbrains.kotlin:kotlin-util-klib:1.9.0]:*&amp;&amp;!ext[Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.9.0]:*&amp;&amp;!ext[/home/jamie/.gradle/gradle-8.3/lib/gradle-installation-beacon-8.3.jar]:*" />
+    <scope name="Project" pattern="(file[lib.gdx-library-root.gdx-bmesh]:*/||file[lib.gdx-library-root.gdx-gizmos]:*/||file[lib.gdx-library-root.gdx-mesh-plus]:*/||file[lib.gdx-library-root.gdx-package-demos]:*/||file[lib.gdx-library-root.gdx-picking]:*/||file[lib.gdx-library-root.gdx-scenegraph]:*/||file[lib.gdx-library-root.gdx-ui]:*/||file[lib.gdx-library-root.gdx-yung-utils]:*/||file[group:libraries]:*//*||file[lib.gdx-library-root.gdx-bmesh.main]:*/||file[lib.gdx-library-root.gdx-package-demos.main]:*/)&amp;&amp;!file[gdx-library-root.salient]:*/||file[gdx-library-root.salient]:*" />
+    <order>
+      <scope name="ui" />
+    </order>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2VNQSG6QAvLac3VaQrcTljsYPqm" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -134,52 +563,116 @@
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Jamie/Desktop/gdx-yunghegel-library",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.1150748",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;KEY_COMPOSED_FOLDERS&quot;: &quot;{\&quot;DecomposedFolders\&quot;:[\&quot;C:/Users/Jamie/Desktop/gdx-yunghegel-library/gdx-gizmos\&quot;,\&quot;C:/Users/Jamie/Desktop/gdx-yunghegel-library/gdx-ui\&quot;,\&quot;C:/Users/Jamie/Desktop/gdx-yunghegel-library\&quot;,\&quot;C:/Users/Jamie/Desktop/gdx-yunghegel-library/gdx-bmesh\&quot;]}&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Jamie/Desktop/gdx-yunghegel-library/salient_editor/src/scene/objects&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/jamie/C00C4BD20C4BC1E0/Users/Jamie/Desktop/gdx-yunghegel-library/gdx-ui/src/org/yunghegel/gdx/ui/widgets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30124575&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Jamie\\AppData\\Local\\Programs\\IntelliJ IDEA Ultimate\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jamie\Desktop\gdx-yunghegel-library\gdx-yung-utils\src\org\yunghegel\gdx\utils\ui\widgets" />
+      <recent name="$PROJECT_DIR$/gdx-ui/src/org/yunghegel/gdx/ui/widgets" />
+      <recent name="$PROJECT_DIR$/salient_editor/assets/provided" />
+      <recent name="C:\Users\Jamie\Desktop\gdx-yunghegel-library\salient\assets" />
+      <recent name="C:\Users\Jamie\Desktop\gdx-yunghegel-library\gdx-ui\res\skin" />
+      <recent name="C:\Users\Jamie\Desktop\gdx-yunghegel-library\gdx-ui\src\org\yunghegel\gdx\ui\skin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/salient_editor/assets/provided/gltf/models" />
+      <recent name="C:\Users\Jamie\Desktop\gdx-yunghegel-library\salient\src\sys\reflection" />
+      <recent name="C:\Users\Jamie\Desktop\gdx-yunghegel-library\salient" />
+      <recent name="C:\Users\Jamie\Desktop\gdx-yunghegel-library\salient\src\salient" />
+      <recent name="C:\Users\Jamie\Desktop\gdx-yunghegel-library\salient\src" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="scene" />
+      <recent name="scene.graph" />
+      <recent name="ui.project.dialogs" />
+      <recent name="events" />
+      <recent name="sys.reflection" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ui.scene" />
+      <recent name="org.yunghegel.gdx.ui.widgets" />
+      <recent name="io" />
+      <recent name="sys.profiling" />
       <recent name="org.yunghegel.gdx.utils.ui" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="gradle dist --debug" />
+      <command value="gradle clean" />
       <command value="gradle --refresh-dependencies" />
+      <command value="gradle delombok" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.gdx-yunghegel-library:gdx-bmesh [publish]">
-    <configuration name="gdx-yunghegel-library:gdx-bmesh [publish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration name="Launcher" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.Launcher" />
+      <module name="gdx-library-root.salient_editor.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestLauncher" />
+      <module name="gdx-library-root.gdx-shaders.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gdx-yunghegel-library [delombok]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/gdx-bmesh" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="publish" />
+            <option value="delombok" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -190,10 +683,30 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="gdx-yunghegel-library:gdx-gizmos [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="gdx-yunghegel-library" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/gdx-gizmos" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--refresh-dependencies" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="gdx-yunghegel-library:gdx-scenegraph [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/gdx-scenegraph" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -212,10 +725,10 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="gdx-yunghegel-library:gdx-mesh-plus [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="gdx-yunghegel-library:gdx-scenegraph [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/gdx-mesh-plus" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/gdx-scenegraph" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -223,51 +736,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="gdx-yunghegel-library:gdx-picking [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/gdx-picking" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="gdx-yunghegel-library:gdx-yung-utils [publish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/gdx-yung-utils" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="publish" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -291,13 +760,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Launcher" />
+      <item itemvalue="Application.TestLauncher" />
+      <item itemvalue="Gradle.gdx-yunghegel-library" />
+      <item itemvalue="Gradle.gdx-yunghegel-library [delombok]" />
+      <item itemvalue="Gradle.gdx-yunghegel-library:gdx-scenegraph [build]" />
+      <item itemvalue="Gradle.gdx-yunghegel-library:gdx-scenegraph [clean]" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.gdx-yunghegel-library:gdx-bmesh [publish]" />
-        <item itemvalue="Gradle.gdx-yunghegel-library:gdx-yung-utils [publish]" />
-        <item itemvalue="Gradle.gdx-yunghegel-library:gdx-picking [build]" />
-        <item itemvalue="Gradle.gdx-yunghegel-library:gdx-mesh-plus [build]" />
-        <item itemvalue="Gradle.gdx-yunghegel-library:gdx-gizmos [build]" />
+        <item itemvalue="Gradle.gdx-yunghegel-library [delombok]" />
+        <item itemvalue="Gradle.gdx-yunghegel-library" />
+        <item itemvalue="Application.TestLauncher" />
+        <item itemvalue="Gradle.gdx-yunghegel-library:gdx-scenegraph [build]" />
+        <item itemvalue="Gradle.gdx-yunghegel-library:gdx-scenegraph [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +789,45 @@
       <workItem from="1694674058519" duration="21876000" />
       <workItem from="1694696408973" duration="551000" />
       <workItem from="1694697011801" duration="3618000" />
+      <workItem from="1695089939680" duration="28742000" />
+      <workItem from="1695545575814" duration="1805000" />
+      <workItem from="1695547397416" duration="3589000" />
+      <workItem from="1695551017413" duration="2223000" />
+      <workItem from="1695659060648" duration="1648000" />
+      <workItem from="1695660731639" duration="2717000" />
+      <workItem from="1695663478913" duration="951000" />
+      <workItem from="1695664495622" duration="379000" />
+      <workItem from="1695664895437" duration="2999000" />
+      <workItem from="1695668893244" duration="4509000" />
+      <workItem from="1695673423902" duration="953000" />
+      <workItem from="1695674397238" duration="170000" />
+      <workItem from="1695674584210" duration="3417000" />
+      <workItem from="1695692590064" duration="892000" />
+      <workItem from="1695693746347" duration="165000" />
+      <workItem from="1695693946737" duration="29220000" />
+      <workItem from="1695847275693" duration="133000" />
+      <workItem from="1695847425877" duration="6000" />
+      <workItem from="1695848658859" duration="1593000" />
+      <workItem from="1696447665570" duration="2702000" />
+      <workItem from="1696607969700" duration="14208000" />
+      <workItem from="1696622251083" duration="2881000" />
+      <workItem from="1696625632459" duration="17248000" />
+      <workItem from="1696642948359" duration="930000" />
+      <workItem from="1696643903271" duration="967000" />
+      <workItem from="1696644894248" duration="19024000" />
+      <workItem from="1696675289754" duration="15960000" />
+      <workItem from="1696768507864" duration="34027000" />
+      <workItem from="1696813052403" duration="93682000" />
+      <workItem from="1696946385773" duration="16433000" />
+      <workItem from="1696977356721" duration="230000" />
+      <workItem from="1696977659707" duration="11549000" />
+      <workItem from="1696989467264" duration="17454000" />
+      <workItem from="1697021944967" duration="404000" />
+      <workItem from="1697134360593" duration="166000" />
+      <workItem from="1697136553189" duration="147000" />
+      <workItem from="1697357893312" duration="2766000" />
+      <workItem from="1697360687044" duration="9396000" />
+      <workItem from="1697370441206" duration="251000" />
     </task>
     <task id="LOCAL-00001" summary="add libraries">
       <option name="closed" value="true" />
@@ -329,15 +845,127 @@
       <option name="project" value="LOCAL" />
       <updated>1694695285971</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="versioning + java 11 switch">
+      <option name="closed" value="true" />
+      <created>1695117306554</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695117306554</updated>
+    </task>
+    <task id="LOCAL-00004" summary="versioning + java 11 switch">
+      <option name="closed" value="true" />
+      <created>1696710312601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696710312601</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Salient">
+      <option name="closed" value="true" />
+      <created>1696710787995</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696710787995</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Salient">
+      <option name="closed" value="true" />
+      <created>1696710856398</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696710856398</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Salient">
+      <option name="closed" value="true" />
+      <created>1696710908058</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696710908058</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Salient">
+      <option name="closed" value="true" />
+      <created>1696711372798</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696711372798</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Salient">
+      <option name="closed" value="true" />
+      <created>1696712306250</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696712306250</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnloadedModulesList">
+    <module name="plugins" />
+    <module name="plugins.plugin" />
+    <module name="plugins.plugin.functionalTest" />
+    <module name="plugins.plugin.main" />
+    <module name="plugins.plugin.test" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add libraries" />
     <MESSAGE value="add demo files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add demo files" />
+    <MESSAGE value="versioning + java 11 switch" />
+    <MESSAGE value="Salient" />
+    <option name="LAST_COMMIT_MESSAGE" value="Salient" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/salient_editor/src/events/Events.kt</url>
+          <line>129</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.LinkedHashMap$Entry" memberName="value" />
+        <PinnedItemInfo parentTag="ktx.assets.async.AssetStorage" memberName="assets" />
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+        <PinnedItemInfo parentTag="assets.types.ModelAsset" memberName="obj" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gdx_library_root$Launcher.ic" NAME="Launcher Coverage Results" MODIFIED="1696644802148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>app.*</FILTER>
+    </SUITE>
   </component>
 </project>

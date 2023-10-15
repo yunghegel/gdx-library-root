@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="ui" pattern="file[gdx-library-root.gdx-ui*]:*//*||file[lib.gdx-library-root.gdx-yung-utils.main]:org/yunghegel/gdx/utils/ui//*||file[lib.gdx-library-root.gdx-package-demos.main]:UIDemo.java||file[lib.gdx-library-root.gdx-ui.main]:*" />
+</component>

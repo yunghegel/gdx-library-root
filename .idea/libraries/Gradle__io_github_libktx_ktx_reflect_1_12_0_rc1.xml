@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.libktx:ktx-reflect:1.12.0-rc1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.github.libktx" artifactId="ktx-reflect" version="1.12.0-rc1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.libktx/ktx-reflect/1.12.0-rc1/132d800e45a03e58013edf77535b5c36b6d907ff/ktx-reflect-1.12.0-rc1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.libktx/ktx-reflect/1.12.0-rc1/1593be833f39945758dd5de79b1e27019710f0d8/ktx-reflect-1.12.0-rc1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

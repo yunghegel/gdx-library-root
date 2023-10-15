@@ -8,21 +8,101 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.28/a2ff5da8bcd8b1b26f36b806ced63213362c6dcc/lombok-1.18.28.jar" />
         </processorPath>
         <module name="gdx-library-root.gdx-bmesh.main" />
+        <module name="gdx-library-root.gdx-ui.main" />
+        <module name="gdx-library-root.salient_editor.main" />
         <module name="gdx-library-root.gdx-scenegraph.main" />
         <module name="gdx-library-root.gdx-yung-utils.test" />
         <module name="gdx-library-root.gdx-scenegraph.test" />
+        <module name="gdx-library-root.gdx-shaders.main" />
         <module name="gdx-library-root.gdx-picking.main" />
         <module name="gdx-library-root.gdx-gizmos.main" />
+        <module name="gdx-library-root.gdx-ui.test" />
         <module name="gdx-library-root.gdx-gizmos.test" />
         <module name="gdx-library-root.gdx-yung-utils.main" />
-        <module name="gdx-library-root.demos.test" />
+        <module name="gdx-library-root.gdx-package-demos.main" />
+        <module name="gdx-library-root.salient_editor.test" />
         <module name="gdx-library-root.gdx-picking.test" />
-        <module name="gdx-library-root.demos.main" />
+        <module name="gdx-library-root.gdx-shaders.test" />
         <module name="gdx-library-root.gdx-mesh-plus.test" />
         <module name="gdx-library-root.gdx-mesh-plus.main" />
+        <module name="gdx-library-root.gdx-package-demos.test" />
         <module name="gdx-library-root.gdx-bmesh.test" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="gdx-library-root" target="11" />
+      <module name="gdx-library-root.gdx-bmesh" target="11" />
+      <module name="gdx-library-root.gdx-bmesh.main" target="11" />
+      <module name="gdx-library-root.gdx-bmesh.test" target="11" />
+      <module name="gdx-library-root.gdx-gizmos" target="11" />
+      <module name="gdx-library-root.gdx-gizmos.main" target="11" />
+      <module name="gdx-library-root.gdx-gizmos.test" target="11" />
+      <module name="gdx-library-root.gdx-mesh-plus" target="11" />
+      <module name="gdx-library-root.gdx-mesh-plus.main" target="11" />
+      <module name="gdx-library-root.gdx-mesh-plus.test" target="11" />
+      <module name="gdx-library-root.gdx-package-demos" target="11" />
+      <module name="gdx-library-root.gdx-package-demos.main" target="11" />
+      <module name="gdx-library-root.gdx-package-demos.test" target="11" />
+      <module name="gdx-library-root.gdx-picking" target="11" />
+      <module name="gdx-library-root.gdx-picking.main" target="11" />
+      <module name="gdx-library-root.gdx-picking.test" target="11" />
+      <module name="gdx-library-root.gdx-scenegraph" target="11" />
+      <module name="gdx-library-root.gdx-scenegraph.main" target="11" />
+      <module name="gdx-library-root.gdx-scenegraph.test" target="11" />
+      <module name="gdx-library-root.gdx-shaders" target="11" />
+      <module name="gdx-library-root.gdx-shaders.main" target="11" />
+      <module name="gdx-library-root.gdx-shaders.test" target="11" />
+      <module name="gdx-library-root.gdx-ui" target="11" />
+      <module name="gdx-library-root.gdx-ui.main" target="11" />
+      <module name="gdx-library-root.gdx-ui.test" target="11" />
+      <module name="gdx-library-root.gdx-yung-utils" target="11" />
+      <module name="gdx-library-root.gdx-yung-utils.main" target="11" />
+      <module name="gdx-library-root.gdx-yung-utils.test" target="11" />
+      <module name="gdx-library-root.main" target="11" />
+      <module name="gdx-library-root.salient" target="11" />
+      <module name="gdx-library-root.salient.core" target="11" />
+      <module name="gdx-library-root.salient.core.main" target="11" />
+      <module name="gdx-library-root.salient.core.test" target="11" />
+      <module name="gdx-library-root.salient.desktop" target="11" />
+      <module name="gdx-library-root.salient.desktop.main" target="11" />
+      <module name="gdx-library-root.salient.desktop.test" target="11" />
+      <module name="gdx-library-root.salient.main" target="11" />
+      <module name="gdx-library-root.salient.test" target="11" />
+      <module name="gdx-library-root.salient.web" target="11" />
+      <module name="gdx-library-root.salient.web.main" target="11" />
+      <module name="gdx-library-root.salient.web.test" target="11" />
+      <module name="gdx-library-root.salient_editor" target="11" />
+      <module name="gdx-library-root.salient_editor.main" target="11" />
+      <module name="gdx-library-root.salient_editor.test" target="11" />
+      <module name="gdx-library-root.test" target="11" />
+      <module name="lib.gdx-library-root.gdx-bmesh" target="11" />
+      <module name="lib.gdx-library-root.gdx-bmesh.main" target="11" />
+      <module name="lib.gdx-library-root.gdx-bmesh.test" target="11" />
+      <module name="lib.gdx-library-root.gdx-gizmos" target="11" />
+      <module name="lib.gdx-library-root.gdx-gizmos.main" target="11" />
+      <module name="lib.gdx-library-root.gdx-gizmos.test" target="11" />
+      <module name="lib.gdx-library-root.gdx-mesh-plus" target="11" />
+      <module name="lib.gdx-library-root.gdx-mesh-plus.main" target="11" />
+      <module name="lib.gdx-library-root.gdx-mesh-plus.test" target="11" />
+      <module name="lib.gdx-library-root.gdx-package-demos" target="11" />
+      <module name="lib.gdx-library-root.gdx-package-demos.main" target="11" />
+      <module name="lib.gdx-library-root.gdx-package-demos.test" target="11" />
+      <module name="lib.gdx-library-root.gdx-picking" target="11" />
+      <module name="lib.gdx-library-root.gdx-picking.main" target="11" />
+      <module name="lib.gdx-library-root.gdx-picking.test" target="11" />
+      <module name="lib.gdx-library-root.gdx-scenegraph" target="11" />
+      <module name="lib.gdx-library-root.gdx-scenegraph.main" target="11" />
+      <module name="lib.gdx-library-root.gdx-scenegraph.test" target="11" />
+      <module name="lib.gdx-library-root.gdx-ui" target="11" />
+      <module name="lib.gdx-library-root.gdx-ui.main" target="11" />
+      <module name="lib.gdx-library-root.gdx-ui.test" target="11" />
+      <module name="lib.gdx-library-root.gdx-yung-utils" target="11" />
+      <module name="lib.gdx-library-root.gdx-yung-utils.main" target="11" />
+      <module name="lib.gdx-library-root.gdx-yung-utils.test" target="11" />
+      <module name="plugins.plugin" target="11" />
+      <module name="plugins.plugin.functionalTest" target="11" />
+      <module name="plugins.plugin.main" target="11" />
+      <module name="plugins.plugin.test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

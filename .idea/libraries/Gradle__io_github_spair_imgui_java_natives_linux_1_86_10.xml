@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.spair:imgui-java-natives-linux:1.86.10" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.github.spair" artifactId="imgui-java-natives-linux" version="1.86.10" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.spair/imgui-java-natives-linux/1.86.10/2cbb653d78402699242933d510372493ee334df8/imgui-java-natives-linux-1.86.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.spair/imgui-java-natives-linux/1.86.10/65507d1f976dab394de0f839411bba536c486194/imgui-java-natives-linux-1.86.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

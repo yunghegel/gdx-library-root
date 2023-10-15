@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.yunghegel.gdx:gdx-scenegraph:0.4-SNAPSHOT" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.yunghegel.gdx" artifactId="gdx-scenegraph" version="0.4-SNAPSHOT" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yunghegel.gdx/gdx-scenegraph/0.4-SNAPSHOT/bdbf9baa490a7350acc9a4f9b83b696a379661d6/gdx-scenegraph-0.4-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yunghegel.gdx/gdx-scenegraph/0.4-SNAPSHOT/ce3eaeada24374b1050077a7bf1ddf571bb9152/gdx-scenegraph-0.4-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

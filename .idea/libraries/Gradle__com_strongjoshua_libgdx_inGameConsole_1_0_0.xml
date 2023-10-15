@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.strongjoshua:libgdx-inGameConsole:1.0.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.strongjoshua" artifactId="libgdx-inGameConsole" version="1.0.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.strongjoshua/libgdx-inGameConsole/1.0.0/ea9cc81685c56fe3c62aad0239772acded1526da/libgdx-inGameConsole-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.strongjoshua/libgdx-inGameConsole/1.0.0/4b77f0df1c8bc90472289bb159bf977f57d06e37/libgdx-inGameConsole-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

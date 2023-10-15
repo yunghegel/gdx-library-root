@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.yunghegel.gdx:gdx-picking:0.3-SNAPSHOT" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.yunghegel.gdx" artifactId="gdx-picking" version="0.3-SNAPSHOT" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yunghegel.gdx/gdx-picking/0.3-SNAPSHOT/ce051a89c595962dca81c183306fac72c5e96bc/gdx-picking-0.3-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yunghegel.gdx/gdx-picking/0.3-SNAPSHOT/72962bb8359d762f458a94a39f9c77328db9bda/gdx-picking-0.3-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

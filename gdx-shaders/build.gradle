@@ -1,0 +1,58 @@
+buildscript {
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+
+    }
+}
+
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.9.20-RC'
+}
+group 'org.yunghegel.gdx'
+version "$gdxShadersVersion"
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation project(path: ':gdx-yung-utils')
+    implementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
+    implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation "io.github.fourlastor.gdx:scope:0.1.2"
+    testImplementation project(path: ':gdx-ui')
+    implementation project(path: ':gdx-yung-utils')
+
+}
+compileKotlin {
+    compilerOptions.jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
+}
+
+kotlin {
+    jvmToolchain(11)
+}
+publishing {
+    repositories {
+        maven {
+            name = "yunghegelSnapshots" //REPOSITORY NAME
+            url = uri("https://repo.yunghegel.org/snapshots") //REPOSITORY URL
+            credentials(PasswordCredentials)
+            authentication {
+                basic(BasicAuthentication)
+            }
+        }
+    }
+
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = "org.yunghegel.gdx"
+            artifactId = "gdx-ui"
+            version = version
+            from components.java
+        }
+    }
+}
+repositories {
+    mavenCentral()
+}
+kotlin {
+    jvmToolchain(11)
+}

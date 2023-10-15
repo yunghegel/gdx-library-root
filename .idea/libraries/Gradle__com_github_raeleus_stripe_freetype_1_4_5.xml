@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.raeleus.stripe:freetype:1.4.5" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.github.raeleus.stripe" artifactId="freetype" version="1.4.5" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.raeleus.stripe/freetype/1.4.5/d3f96b502c6c49c2d78d257ed83ca6840edd5ce1/freetype-1.4.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.raeleus.stripe/freetype/1.4.5/3e95607ba6af16b4680733e2c52de38ef9d7273d/freetype-1.4.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

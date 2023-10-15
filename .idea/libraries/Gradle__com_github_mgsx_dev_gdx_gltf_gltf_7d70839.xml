@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.mgsx-dev.gdx-gltf:gltf:7d70839" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.github.mgsx-dev.gdx-gltf" artifactId="gltf" version="7d70839" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.mgsx-dev.gdx-gltf/gltf/7d70839/298c9794d96450cd7fd47adf81fc001ca44162d2/gltf-7d70839.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.mgsx-dev.gdx-gltf/gltf/7d70839/c9d1aba7fe3b3d08ceae1f6b4a0054388f94cd83/gltf-7d70839-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

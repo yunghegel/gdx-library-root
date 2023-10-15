@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.libktx:ktx-assets-async:1.12.0-rc1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.github.libktx" artifactId="ktx-assets-async" version="1.12.0-rc1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.libktx/ktx-assets-async/1.12.0-rc1/1c739b8642739b46e154c141fd6acdfbd17a4751/ktx-assets-async-1.12.0-rc1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.libktx/ktx-assets-async/1.12.0-rc1/a25ed7ef34b13cd59d7bc1db13f297b82454f4eb/ktx-assets-async-1.12.0-rc1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

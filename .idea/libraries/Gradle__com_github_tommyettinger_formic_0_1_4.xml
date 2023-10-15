@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.tommyettinger:formic:0.1.4" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.github.tommyettinger" artifactId="formic" version="0.1.4" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tommyettinger/formic/0.1.4/167901eaf9f17a6a122da04739dc730841c72664/formic-0.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tommyettinger/formic/0.1.4/aec3d6abf5187cf2cd31ccc1f1c2b6527546a3ae/formic-0.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

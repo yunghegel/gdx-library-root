@@ -1,3 +1,6 @@
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.5.0'
+}
 rootProject.name = 'gdx-library-root'
 include 'gdx-bmesh'
 include 'gdx-yung-utils'
@@ -6,6 +9,7 @@ include 'gdx-gizmos'
 include 'gdx-mesh-plus'
 include 'gdx-picking'
 include 'gdx-ui'
+include 'gdx-shaders'
 
 include 'gdx-package-demos'
 include 'salient_editor'

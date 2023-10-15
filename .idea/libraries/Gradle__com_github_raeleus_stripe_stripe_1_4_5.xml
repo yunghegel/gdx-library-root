@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.raeleus.stripe:stripe:1.4.5" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.github.raeleus.stripe" artifactId="stripe" version="1.4.5" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.raeleus.stripe/stripe/1.4.5/c0aac557ac950e0ecd5978377a8b5dc47a1c60bc/stripe-1.4.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.raeleus.stripe/stripe/1.4.5/39dff76e7d3fa1d2e8e62962b9c62cfa9312bffb/stripe-1.4.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

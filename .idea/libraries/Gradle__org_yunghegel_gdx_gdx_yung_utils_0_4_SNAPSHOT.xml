@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.yunghegel.gdx:gdx-yung-utils:0.4-SNAPSHOT" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.yunghegel.gdx" artifactId="gdx-yung-utils" version="0.4-SNAPSHOT" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yunghegel.gdx/gdx-yung-utils/0.4-SNAPSHOT/50ddc2a82830e1a5462793a2fcfb6afeba61fd79/gdx-yung-utils-0.4-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yunghegel.gdx/gdx-yung-utils/0.4-SNAPSHOT/c199525a2b53688b526ee1382b5e6199fe47fb37/gdx-yung-utils-0.4-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

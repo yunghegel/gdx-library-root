@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.jsinterop:base:1.0.0-RC1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.google.jsinterop" artifactId="base" version="1.0.0-RC1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.jsinterop/base/1.0.0-RC1/6748431b38d72b1c25b4c52197ba2cf74bf8a1fb/base-1.0.0-RC1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.jsinterop/base/1.0.0-RC1/13665fa73e344ed1847ebad064324e2cf9c63fa6/base-1.0.0-RC1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

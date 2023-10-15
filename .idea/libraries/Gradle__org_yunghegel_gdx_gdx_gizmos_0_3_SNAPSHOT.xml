@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.yunghegel.gdx:gdx-gizmos:0.3-SNAPSHOT" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.yunghegel.gdx" artifactId="gdx-gizmos" version="0.3-SNAPSHOT" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yunghegel.gdx/gdx-gizmos/0.3-SNAPSHOT/68c1f6f19ea67f9968f83e521c4e940980218370/gdx-gizmos-0.3-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yunghegel.gdx/gdx-gizmos/0.3-SNAPSHOT/c0309979c486f892b6cb7e7444e1e47e2a5714fc/gdx-gizmos-0.3-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

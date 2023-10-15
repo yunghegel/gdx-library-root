@@ -1,12 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ModuleRenamingHistory">
+    <module old-name="gdx-library-root.gdx-bmesh" new-name="lib.gdx-library-root.gdx-bmesh" />
+    <module old-name="gdx-library-root.gdx-bmesh.main" new-name="lib.gdx-library-root.gdx-bmesh.main" />
+    <module old-name="gdx-library-root.gdx-bmesh.test" new-name="lib.gdx-library-root.gdx-bmesh.test" />
+    <module old-name="gdx-library-root.gdx-gizmos" new-name="lib.gdx-library-root.gdx-gizmos" />
+    <module old-name="gdx-library-root.gdx-gizmos.main" new-name="lib.gdx-library-root.gdx-gizmos.main" />
+    <module old-name="gdx-library-root.gdx-gizmos.test" new-name="lib.gdx-library-root.gdx-gizmos.test" />
+    <module old-name="gdx-library-root.gdx-mesh-plus" new-name="lib.gdx-library-root.gdx-mesh-plus" />
+    <module old-name="gdx-library-root.gdx-mesh-plus.main" new-name="lib.gdx-library-root.gdx-mesh-plus.main" />
+    <module old-name="gdx-library-root.gdx-mesh-plus.test" new-name="lib.gdx-library-root.gdx-mesh-plus.test" />
+    <module old-name="gdx-library-root.gdx-package-demos" new-name="lib.gdx-library-root.gdx-package-demos" />
+    <module old-name="gdx-library-root.gdx-package-demos.main" new-name="lib.gdx-library-root.gdx-package-demos.main" />
+    <module old-name="gdx-library-root.gdx-package-demos.test" new-name="lib.gdx-library-root.gdx-package-demos.test" />
+    <module old-name="gdx-library-root.gdx-picking" new-name="lib.gdx-library-root.gdx-picking" />
+    <module old-name="gdx-library-root.gdx-picking.main" new-name="lib.gdx-library-root.gdx-picking.main" />
+    <module old-name="gdx-library-root.gdx-picking.test" new-name="lib.gdx-library-root.gdx-picking.test" />
+    <module old-name="gdx-library-root.gdx-scenegraph" new-name="lib.gdx-library-root.gdx-scenegraph" />
+    <module old-name="gdx-library-root.gdx-scenegraph.main" new-name="lib.gdx-library-root.gdx-scenegraph.main" />
+    <module old-name="gdx-library-root.gdx-scenegraph.test" new-name="lib.gdx-library-root.gdx-scenegraph.test" />
+    <module old-name="gdx-library-root.gdx-ui" new-name="lib.gdx-library-root.gdx-ui" />
+    <module old-name="gdx-library-root.gdx-ui.main" new-name="lib.gdx-library-root.gdx-ui.main" />
+    <module old-name="gdx-library-root.gdx-ui.test" new-name="lib.gdx-library-root.gdx-ui.test" />
+    <module old-name="gdx-library-root.gdx-yung-utils" new-name="lib.gdx-library-root.gdx-yung-utils" />
+    <module old-name="gdx-library-root.gdx-yung-utils.main" new-name="lib.gdx-library-root.gdx-yung-utils.main" />
+    <module old-name="gdx-library-root.gdx-yung-utils.test" new-name="lib.gdx-library-root.gdx-yung-utils.test" />
+  </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/external-dependency.iml" filepath="$PROJECT_DIR$/external-dependency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-library-root.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-library-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-bmesh/gdx-library-root.gdx-bmesh.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-bmesh/gdx-library-root.gdx-bmesh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-bmesh/gdx-library-root.gdx-bmesh.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-bmesh/gdx-library-root.gdx-bmesh.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-bmesh/gdx-library-root.gdx-bmesh.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-bmesh/gdx-library-root.gdx-bmesh.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-gizmos/gdx-library-root.gdx-gizmos.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-gizmos/gdx-library-root.gdx-gizmos.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-gizmos/gdx-library-root.gdx-gizmos.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-gizmos/gdx-library-root.gdx-gizmos.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-gizmos/gdx-library-root.gdx-gizmos.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-gizmos/gdx-library-root.gdx-gizmos.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/gdx-library-root.gdx-mesh-plus.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/gdx-library-root.gdx-mesh-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/gdx-library-root.gdx-mesh-plus.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/gdx-library-root.gdx-mesh-plus.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/gdx-library-root.gdx-mesh-plus.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/gdx-library-root.gdx-mesh-plus.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-package-demos/gdx-library-root.gdx-package-demos.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-package-demos/gdx-library-root.gdx-package-demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-package-demos/gdx-library-root.gdx-package-demos.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-package-demos/gdx-library-root.gdx-package-demos.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-package-demos/gdx-library-root.gdx-package-demos.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-package-demos/gdx-library-root.gdx-package-demos.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-picking/gdx-library-root.gdx-picking.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-picking/gdx-library-root.gdx-picking.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-picking/gdx-library-root.gdx-picking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-picking/gdx-library-root.gdx-picking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-picking/gdx-library-root.gdx-picking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-picking/gdx-library-root.gdx-picking.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-scenegraph/gdx-library-root.gdx-scenegraph.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-scenegraph/gdx-library-root.gdx-scenegraph.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-scenegraph/gdx-library-root.gdx-scenegraph.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-scenegraph/gdx-library-root.gdx-scenegraph.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-scenegraph/gdx-library-root.gdx-scenegraph.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-scenegraph/gdx-library-root.gdx-scenegraph.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-shaders/gdx-library-root.gdx-shaders.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-shaders/gdx-library-root.gdx-shaders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-shaders/gdx-library-root.gdx-shaders.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-shaders/gdx-library-root.gdx-shaders.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-shaders/gdx-library-root.gdx-shaders.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-shaders/gdx-library-root.gdx-shaders.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-ui/gdx-library-root.gdx-ui.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-ui/gdx-library-root.gdx-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-ui/gdx-library-root.gdx-ui.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-ui/gdx-library-root.gdx-ui.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-ui/gdx-library-root.gdx-ui.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-ui/gdx-library-root.gdx-ui.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-yung-utils/gdx-library-root.gdx-yung-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-yung-utils/gdx-library-root.gdx-yung-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-yung-utils/gdx-library-root.gdx-yung-utils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-yung-utils/gdx-library-root.gdx-yung-utils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-yung-utils/gdx-library-root.gdx-yung-utils.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-yung-utils/gdx-library-root.gdx-yung-utils.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-library-root.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-library-root.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/salient_editor/gdx-library-root.salient_editor.iml" filepath="$PROJECT_DIR$/.idea/modules/salient_editor/gdx-library-root.salient_editor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/salient_editor/gdx-library-root.salient_editor.main.iml" filepath="$PROJECT_DIR$/.idea/modules/salient_editor/gdx-library-root.salient_editor.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/salient_editor/gdx-library-root.salient_editor.test.iml" filepath="$PROJECT_DIR$/.idea/modules/salient_editor/gdx-library-root.salient_editor.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-library-root.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-library-root.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-bmesh/lib.gdx-library-root.gdx-bmesh.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-bmesh/lib.gdx-library-root.gdx-bmesh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-bmesh/lib.gdx-library-root.gdx-bmesh.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-bmesh/lib.gdx-library-root.gdx-bmesh.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-bmesh/lib.gdx-library-root.gdx-bmesh.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-bmesh/lib.gdx-library-root.gdx-bmesh.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-gizmos/lib.gdx-library-root.gdx-gizmos.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-gizmos/lib.gdx-library-root.gdx-gizmos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-gizmos/lib.gdx-library-root.gdx-gizmos.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-gizmos/lib.gdx-library-root.gdx-gizmos.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-gizmos/lib.gdx-library-root.gdx-gizmos.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-gizmos/lib.gdx-library-root.gdx-gizmos.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/lib.gdx-library-root.gdx-mesh-plus.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/lib.gdx-library-root.gdx-mesh-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/lib.gdx-library-root.gdx-mesh-plus.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/lib.gdx-library-root.gdx-mesh-plus.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/lib.gdx-library-root.gdx-mesh-plus.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-mesh-plus/lib.gdx-library-root.gdx-mesh-plus.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-package-demos/lib.gdx-library-root.gdx-package-demos.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-package-demos/lib.gdx-library-root.gdx-package-demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-package-demos/lib.gdx-library-root.gdx-package-demos.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-package-demos/lib.gdx-library-root.gdx-package-demos.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-package-demos/lib.gdx-library-root.gdx-package-demos.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-package-demos/lib.gdx-library-root.gdx-package-demos.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-picking/lib.gdx-library-root.gdx-picking.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-picking/lib.gdx-library-root.gdx-picking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-picking/lib.gdx-library-root.gdx-picking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-picking/lib.gdx-library-root.gdx-picking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-picking/lib.gdx-library-root.gdx-picking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-picking/lib.gdx-library-root.gdx-picking.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-scenegraph/lib.gdx-library-root.gdx-scenegraph.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-scenegraph/lib.gdx-library-root.gdx-scenegraph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-scenegraph/lib.gdx-library-root.gdx-scenegraph.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-scenegraph/lib.gdx-library-root.gdx-scenegraph.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-scenegraph/lib.gdx-library-root.gdx-scenegraph.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-scenegraph/lib.gdx-library-root.gdx-scenegraph.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-ui/lib.gdx-library-root.gdx-ui.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-ui/lib.gdx-library-root.gdx-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-ui/lib.gdx-library-root.gdx-ui.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-ui/lib.gdx-library-root.gdx-ui.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-ui/lib.gdx-library-root.gdx-ui.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-ui/lib.gdx-library-root.gdx-ui.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-yung-utils/lib.gdx-library-root.gdx-yung-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-yung-utils/lib.gdx-library-root.gdx-yung-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-yung-utils/lib.gdx-library-root.gdx-yung-utils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-yung-utils/lib.gdx-library-root.gdx-yung-utils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdx-yung-utils/lib.gdx-library-root.gdx-yung-utils.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gdx-yung-utils/lib.gdx-library-root.gdx-yung-utils.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/plugins.iml" filepath="$PROJECT_DIR$/.idea/modules/plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/plugin/plugins.plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/plugin/plugins.plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/plugin/plugins.plugin.functionalTest.iml" filepath="$PROJECT_DIR$/.idea/modules/plugin/plugins.plugin.functionalTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/plugin/plugins.plugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/plugin/plugins.plugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/plugin/plugins.plugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/plugin/plugins.plugin.test.iml" />
     </modules>
   </component>
 </project>

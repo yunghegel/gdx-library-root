@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AhkProjectSettings">
     <option name="defaultAhkSdk" value="AutoHotkey v1.1.33" />
@@ -7,9 +6,17 @@
     <option name="show" value="ASK" />
     <option name="description" value="" />
   </component>
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="LibGDXSkins">
-    <file url="file://$PROJECT_DIR$/gdx-package-demos/res/skin/salient/uiskin.json" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../salient" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="LibGDXSkins">
+    <file url="file://$PROJECT_DIR$/gdx-package-demos/res/salient/uiskin.json" />
+    <file url="file://$PROJECT_DIR$/gdx-package-demos/res/uiskin.json" />
+    <file url="file://$PROJECT_DIR$/gdx-ui/res/skin/uiskin.json" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="SuppressionsComponent">
+    <option name="suppComments" value="[]" />
+  </component>
 </project>

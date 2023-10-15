@@ -5,8 +5,11 @@
     <mapping directory="$PROJECT_DIR$/gdx-bmesh" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/gdx-gizmos" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/gdx-mesh-plus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gdx-package-demos" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/gdx-picking" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/gdx-scenegraph" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gdx-ui" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/gdx-yung-utils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/salient_editor" vcs="Git" />
   </component>
 </project>

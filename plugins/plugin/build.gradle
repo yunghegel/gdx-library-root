@@ -28,6 +28,12 @@ repositories {
 
 
 dependencies {
+    implementation 'io.github.libktx:ktx-collections:1.12.0-rc1'
+    implementation 'io.github.libktx:ktx-graphics:1.12.0-rc1'
+    implementation 'io.github.libktx:ktx-script:1.12.0-rc1'
+    implementation 'io.github.libktx:ktx-scene2d:1.12.0-rc1'
+    implementation 'io.github.libktx:ktx-ashley:1.12.0-rc1'
+
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
 

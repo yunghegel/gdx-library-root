@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.elemental2:elemental2-promise:1.0.0-RC1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.google.elemental2" artifactId="elemental2-promise" version="1.0.0-RC1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.elemental2/elemental2-promise/1.0.0-RC1/bd280a9142fdf70c74bb8f9a790ae2edce2ec162/elemental2-promise-1.0.0-RC1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.elemental2/elemental2-promise/1.0.0-RC1/6bc0bb80fface51cdf04f03583036b17fa846c28/elemental2-promise-1.0.0-RC1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.libktx:ktx-inject:1.12.0-rc1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.github.libktx" artifactId="ktx-inject" version="1.12.0-rc1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.libktx/ktx-inject/1.12.0-rc1/b6985dd8655a63f33c41704f238710f12ada6b9e/ktx-inject-1.12.0-rc1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.libktx/ktx-inject/1.12.0-rc1/b2da7e5c7d5e44f1faac7cb7a2d58bae3bdab3fc/ktx-inject-1.12.0-rc1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

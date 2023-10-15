@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.crashinvaders.vfx:gdx-vfx-core:0.5.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.crashinvaders.vfx" artifactId="gdx-vfx-core" version="0.5.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.crashinvaders.vfx/gdx-vfx-core/0.5.1/b3e9081e167fef1704f1c8f5c31e4c13dc45ac94/gdx-vfx-core-0.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.crashinvaders.vfx/gdx-vfx-core/0.5.1/1d4258c662591cb2b2cdb74e65544e1feb790bca/gdx-vfx-core-0.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

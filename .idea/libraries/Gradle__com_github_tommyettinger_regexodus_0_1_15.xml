@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.tommyettinger:regexodus:0.1.15" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.github.tommyettinger" artifactId="regexodus" version="0.1.15" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tommyettinger/regexodus/0.1.15/fe40beb95c05328d83940848c25314b980a59e72/regexodus-0.1.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tommyettinger/regexodus/0.1.15/d6fa4dfb71b404007bc395173dafcd724c8db165/regexodus-0.1.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.spair:imgui-java-natives-windows:1.86.10" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.github.spair" artifactId="imgui-java-natives-windows" version="1.86.10" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.spair/imgui-java-natives-windows/1.86.10/89acf6ceff6de4e4fdb14ba8d0cab17d18004557/imgui-java-natives-windows-1.86.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.spair/imgui-java-natives-windows/1.86.10/14a628adcc9fc29c746f07d4ee216c9315cffe90/imgui-java-natives-windows-1.86.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

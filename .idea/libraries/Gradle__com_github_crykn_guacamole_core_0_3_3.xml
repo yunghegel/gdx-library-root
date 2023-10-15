@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.crykn.guacamole:core:0.3.3" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.github.crykn.guacamole" artifactId="core" version="0.3.3" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.crykn.guacamole/core/0.3.3/9e6aa5ad4fe745e462ae0825e21208540e8c87d8/core-0.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.crykn.guacamole/core/0.3.3/f05cad87adece5a2c9613213f37c7eafc372ace1/core-0.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
