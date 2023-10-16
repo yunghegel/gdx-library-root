@@ -13,62 +13,24 @@ buildscript {
     }
     dependencies {
         classpath "io.freefair.gradle:lombok-plugin:6.5.0.3"
-        classpath "com.diffplug.spotless:spotless-plugin-gradle:6.21.0"
     }
 }
-
 plugins {
     id 'java'
     id 'maven-publish'
     id 'java-library'
 
 }
-
 group 'org.yunghegel.gdx'
-version '1.0-SNAPSHOT'
-
-//yunghegelLibrary {
-//    packages {
-//        addBmesh()
-//        addGizmos()
-//        addPicking()
-//        addMeshPlus()
-//        addScenegraph()
-//        addUtils()
-//    }
-//}
 
 
 subprojects {
     apply plugin: 'java'
     apply plugin: 'maven-publish'
     apply plugin: 'java-library'
-//    apply plugin: "com.diffplug.spotless"
-
 
     sourceCompatibility = 11 //DESIRED JAVA VERSION;
     targetCompatibility = 11 //DESIRED JAVA VERSION;
-
-//    spotless {
-//
-//        java {
-//            // don't need to set target, it is inferred from java
-//
-//            // apply a specific flavor of google-java-format
-//            googleJavaFormat('1.8').aosp().reflowLongStrings()
-//            // fix formatting of type annotations
-//            formatAnnotations()
-//            // make sure every file has the following copyright header.
-//            // optionally, Spotless can set copyright years by digging
-//            // through git history (see "license" section below)
-//            licenseHeader '/* (C)$YEAR */'
-//        }
-//    }
-
-
-
-
-
 
     repositories {
         mavenCentral()
@@ -95,41 +57,26 @@ subprojects {
 
     dependencies {
 
-        //LOMBOK
-        compileOnly 'org.projectlombok:lombok:1.18.28'
-        annotationProcessor 'org.projectlombok:lombok:1.18.28'
-        testCompileOnly 'org.projectlombok:lombok:1.18.28'
-        testAnnotationProcessor 'org.projectlombok:lombok:1.18.28'
+        testImplementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
+        testImplementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
 
-        //GDX BACKEND/NATIVES
-        implementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
-        implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
-
-
-        //GDX CORE LIBRARY
         api "com.badlogicgames.gdx:gdx:$gdxVersion"
         api "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
         api "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-desktop"
         api "com.badlogicgames.gdx:gdx-bullet:$gdxVersion"
 
 
-        //GDX EXTENSIONS
         api "com.kotcrab.vis:vis-ui:$visUiVersion"
         api "com.github.mgsx-dev.gdx-gltf:gltf:$gdxGltfVersion"
-        implementation 'com.github.raeleus.stripe:stripe:1.4.5'
-        implementation 'com.esotericsoftware.minlog:minlog:1.2'
-        implementation "com.github.crykn.guacamole:core:$guacamoleVersion"
-        implementation "com.github.crykn.guacamole:gdx:$guacamoleVersion"
-        implementation "com.github.crykn.guacamole:gdx-desktop:$guacamoleVersion"
-        implementation "com.github.tommyettinger:libgdx-utils:$utilsVersion"
-        implementation 'com.github.raeleus.stripe:freetype:1.4.5'
-        implementation "com.github.tommyettinger:libgdx-utils:$utilsVersion"
-        //UTILITIY LIBRARIES
-        implementation 'com.google.code.gson:gson:2.10.1'
-        implementation "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
-        implementation "org.apache.commons:commons-lang3:3.12.0"
-
-
+        api 'com.github.raeleus.stripe:stripe:1.4.5'
+        api 'com.esotericsoftware.minlog:minlog:1.2'
+        api "com.github.crykn.guacamole:core:$guacamoleVersion"
+        api "com.github.crykn.guacamole:gdx:$guacamoleVersion"
+        api "com.github.crykn.guacamole:gdx-desktop:$guacamoleVersion"
+        api "com.github.tommyettinger:libgdx-utils:$utilsVersion"
+        api 'com.github.raeleus.stripe:freetype:1.4.5'
+        api "com.github.tommyettinger:libgdx-utils:$utilsVersion"
+        api "org.apache.commons:commons-lang3:3.12.0"
 
     }
 
@@ -142,8 +89,27 @@ def javaProjects() {
     }
 }
 
+def apps() {
+    subprojects.findAll { project ->
+        project.plugins.hasPlugin('application')
+    }
+}
+
+configure(apps()){
+    dependencies {
+        implementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
+        implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+
+    }
+}
+
+def libs() {
+    subprojects.findAll { project ->
+        project.name != 'salient_editor'
+    }
+}
+
 configure(javaProjects()) {
-    apply plugin: 'io.freefair.lombok'
 
     sourceSets {
         main {
@@ -179,7 +145,9 @@ configure(javaProjects()) {
             attributes 'Built-OS': System.getProperty('os.name')
         }
 
+
     }
+
 
 
 
@@ -188,16 +156,59 @@ configure(javaProjects()) {
 project('salient_editor'){
 
     dependencies {
-        implementation project(":gdx-ui")
-        implementation project(":gdx-yung-utils")
-        implementation project(":gdx-scenegraph")
-        implementation project(":gdx-mesh-plus")
-        implementation project(":gdx-picking")
-        implementation project(":gdx-gizmos")
-        implementation project(":gdx-bmesh")
+        api project(":gdx-ui")
+        api project(":gdx-yung-utils")
+        api project(":gdx-scenegraph")
+        api project(":gdx-mesh-plus")
+        api project(":gdx-picking")
+        api project(":gdx-gizmos")
+        api project(":gdx-bmesh")
     }
 }
 
-dependencies {
 
+//fatjar for all projects except the main named salient_editor
+task fatjar(type: Jar) {
+    dependsOn libs().jar
+    from libs().jar
+
+    manifest {
+        attributes 'Packages' : libs().collect { it.group + '.' + it.name }.join('\n')
+    }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
 }
+
+//farjar with sources
+task fatjarWithSources(type: Jar) {
+    dependsOn libs().sourcesJar
+    from libs().sourcesJar
+    manifest {
+        attributes 'Main-Class': 'app.Launcher'
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+
+
+task copyFatJarWithSources(type: Copy) {
+    from fatjarWithSources // here it automatically reads jar file produced from jar task
+    into rootDir
+}
+task copyFatJar(type: Copy) {
+    from fatjar // here it automatically reads jar file produced from jar task
+    into rootDir.path+'/lib'
+}
+//build fatjar for all projects except the main named salient_editor
+
+
+
+build.finalizedBy copyFatJar
+
+
+
+

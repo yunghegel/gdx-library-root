@@ -13,13 +13,13 @@ version "$gdxShadersVersion"
 apply plugin: 'kotlin'
 
 dependencies {
-    implementation project(path: ':gdx-yung-utils')
+    api project(path: ':gdx-yung-utils')
     implementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
     implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    implementation "io.github.fourlastor.gdx:scope:0.1.2"
-    testImplementation project(path: ':gdx-ui')
-    implementation project(path: ':gdx-yung-utils')
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    api "io.github.fourlastor.gdx:scope:0.1.2"
+    api project(path: ':gdx-ui')
+    api project(path: ':gdx-yung-utils')
 
 }
 compileKotlin {
